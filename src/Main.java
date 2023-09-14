@@ -49,7 +49,7 @@ public class Main {
         } catch (WrongLoginException | WrongPasswordException e) {
             System.out.println(e.getMessage());
         } catch (Exception e) {
-            System.out.println("Неожидаемая ошибка " + e.getMessage());
+            System.out.println("Неожиданная ошибка " + e.getMessage());
         }
     }
 }
