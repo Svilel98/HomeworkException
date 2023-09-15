@@ -37,7 +37,7 @@ public class Main {
 
     public static void checkingConfirmPassword(String password, String confirmPassword) {
         if (!(password.equals(confirmPassword))) {
-            throw new WrongPasswordException("Пароли не совпадают");
+            throw new WrongPasswordException("Пароли отличаются");
         }
     }
 
